@@ -122,7 +122,7 @@ class API {
         if(err) {
           console.error('Error');
           reject({error: err});
-        } else if(!res.metadata.result) {
+        } else if(!res.metadata) {
           reject({error: res.metadata.reason});
         }
         else resolve(res);

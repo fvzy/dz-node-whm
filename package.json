@@ -1,6 +1,6 @@
 {
   "name": "dz-node-whm",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "a WHM API 1 for NodeJS",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -26,7 +26,7 @@
     "@types/lodash": "^4.14.43",
     "@types/node": "^6.0.52",
     "@types/request": "0.0.36",
-    "typescript": "^2.1.4"
+    "typescript": "^2.9.2"
   },
   "keywords": [
     "dz-whm"
